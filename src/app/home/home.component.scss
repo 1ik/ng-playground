@@ -1,0 +1,14 @@
+/*styles for home content only*/
+:host {
+    div.colored { 
+        div:nth-child(2), .two {
+            background-color: #3949ab;
+        }
+        div:nth-child(1), .one {
+            background-color: #009688;
+        }
+        div:nth-child(3), .three {
+            background-color: #9c27b0;
+        }
+    }
+}

@@ -1,3 +1,24 @@
-<div>
-  <p>home</p>
+<!-- the index of the application -->
+<div class="index-container">
+    <md-card class="card-demo" (click)="toggleDirection()">
+      <md-card-content>
+        <div class="containerX"> 
+          <div [fxLayout]="direction" (click)="toggleDirection()" class="colored box" style="cursor: pointer;">
+            <div fxFlex>
+                <p> hello world <p>
+            </div>
+            <div fxFlex="60">
+              <p> hello world <p>
+            </div>
+            <div fxFlex >
+              <p> hello world <p>
+              <p> hello world <p>
+              <p> hello world <p>
+              <p> hello world <p>
+              <p> hello world <p>
+            </div>
+          </div>
+        </div>
+      </md-card-content>
+    </md-card>
 </div>
